@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/frontend/components/*"
+      ],
+      "@/context/*": [
+        "./src/frontend/context/*"
+      ],
+      "@/data/*": [
+        "./src/frontend/data/*"
+      ],
+      "@/hooks/*": [
+        "./src/frontend/hooks/*"
+      ],
+      "@/integrations/*": [
+        "./src/backend/integrations/*"
+      ],
+      "@/pages/*": [
+        "./src/frontend/pages/*"
+      ],
+      "@/services/*": [
+        "./src/backend/services/*"
+      ],
+      "@/types/*": [
+        "./src/frontend/types/*"
+      ]
+    },
+    "skipLibCheck": true,
+    "strict": false,
+    "target": "ES2020",
+    "types": [
+      "vitest/globals"
+    ],
+    "useDefineForClassFields": true
+  },
+  "include": [
+    "src"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/frontend/components/*"
+      ],
+      "@/context/*": [
+        "./src/frontend/context/*"
+      ],
+      "@/data/*": [
+        "./src/frontend/data/*"
+      ],
+      "@/hooks/*": [
+        "./src/frontend/hooks/*"
+      ],
+      "@/integrations/*": [
+        "./src/backend/integrations/*"
+      ],
+      "@/pages/*": [
+        "./src/frontend/pages/*"
+      ],
+      "@/services/*": [
+        "./src/backend/services/*"
+      ],
+      "@/types/*": [
+        "./src/frontend/types/*"
+      ]
+    },
+    "skipLibCheck": true,
+    "strictNullChecks": false
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
